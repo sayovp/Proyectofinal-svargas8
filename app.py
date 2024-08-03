@@ -11,7 +11,7 @@ import os
 
 pymysql.install_as_MySQLdb()
 
-load_dotenv(overwrite=True)
+load_dotenv()
 
 secret_key =  os.urandom(24)
 
